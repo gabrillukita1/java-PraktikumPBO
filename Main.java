@@ -43,8 +43,7 @@ public class Main {
                     System.out.println("\n\nNama    : " + mahasiswa1.getNama());
                     System.out.println("NIM     : " + mahasiswa1.getNim());
                     System.out.println("Alamat  : " + mahasiswa1.getAlamat());
-                    System.out.println("Jurusan : " + mahasiswa1.getUts());
-                    System.out.println("Nilai   : " + mahasiswa1.getUas());
+                    System.out.println("Nilai   : " + mahasiswa1.getNilai());
                     break;
                 case 2 : 
                     System.out.println("\n\nEdit Data");

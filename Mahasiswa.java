@@ -26,6 +26,9 @@ public class Mahasiswa {
         this.uas = uas;
     }
     
+//    private int hitungNilai(int a, int b){
+//        return a*b/2;
+//    }
     public void setNama(String nama){
         this.nama = nama;
     }
@@ -58,8 +61,8 @@ public class Mahasiswa {
         return alamat;
     }
     
-    public int getUts(){
-        return uts;
+    public int getNilai(){
+        return (uas+uts)/2;
     }
     
     public int getUas(){
